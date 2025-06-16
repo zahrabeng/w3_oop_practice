@@ -24,8 +24,8 @@ export enum CardTypes {
 export class Card {
     suit: string;
     cardType: string;
-    constructor(suit: string, CardType: string) {
+    constructor(suit: string, cardType: string) {
         this.suit = suit;
-        this.cardType = CardType;
+        this.cardType = cardType;
     }
 }

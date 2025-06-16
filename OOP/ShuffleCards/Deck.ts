@@ -4,15 +4,15 @@ export class Deck {
     cards: Card[] = [];
 
     constructor() {
-    const suits = Object.values(Suits);
-    const cardTypes = Object.values(CardTypes);
+        const suits = Object.values(Suits);
+        const cardTypes = Object.values(CardTypes);
 
-    for (const suit of suits) {
-        for (const type of cardTypes) {
-            this.cards.push(new Card(suit, type));
+        for (const suit of suits) {
+            for (const type of cardTypes) {
+                this.cards.push(new Card(suit, type));
+            }
         }
     }
-}
 
     shuffleDeck() {
         let cardsCopy: Card[] = [...this.cards];
