@@ -1,4 +1,4 @@
-## What did i learn here ?
+## What did I learn here ?
 
 - Classes and class inheretance
 - Interfaces for classes, used to define methods
